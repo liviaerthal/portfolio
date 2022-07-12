@@ -1,0 +1,153 @@
+.introducao{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+    padding: 60px 10px;
+    
+}
+
+.introducao h1{
+    font-size: 4.5rem;
+    line-height: 1.1;
+}
+
+
+span{
+    color: #09CE93;
+}
+
+.introducao h2{
+    position: relative;
+    font-size: 2.25rem;
+    line-height: 1.1;
+}
+
+.introducao .deco::before{
+    content: "";
+    display: block;
+    width: 130px;
+    height: 100px;
+    background: url("../img/deco.svg") no-repeat center;
+    position: absolute;
+    z-index: -1;
+    top: -40px;
+    left: -50px;
+}
+
+.introducao-botoes{
+    display: flex;
+    gap: 40px;
+}
+.introducao .botao{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 20px;
+    border-radius: 4px;
+    background-color: #D9D9D9;
+    margin-top: 30px;
+    font-size: 1.2rem;
+    font-weight: normal;
+   transition: all 0.2s ease-out;
+}
+
+.introducao .botao:hover{
+    background-color: #c8c7c7;
+}
+
+@media (max-width: 1200px) {
+    .introducao h1{
+        font-size: 3rem;
+    }
+
+    .introducao h2{
+        font-size: 2rem;
+    }
+}
+    
+
+
+@media (max-width: 1000px) {
+    .introducao{
+        padding: 60px;
+    }
+
+    .introducao img{
+        max-width: 80%;
+    }
+
+    .introducao-botoes{
+        gap: 20px;
+    }
+
+    .introducao .botao{
+        gap: 10px;
+        padding: 10px 20px;
+        font-size: 0.8rem;
+    }
+
+    .introducao .botao .icons{
+        width: 30px;
+    }
+
+}
+
+@media (max-width: 800px) {
+    .introducao{
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+    }
+
+    .introducao h1{
+        font-size: 2.5rem;
+    }
+
+    .introducao h2{
+        font-size: 1.4rem;
+    }
+
+    .introducao .deco::before{
+        width: 30px;
+        height: 10px;
+        left: 0px;
+        top: -20px;
+    }
+}
+
+@media (max-width: 650px) {
+    .introducao img{
+        max-width: 70%;
+    }
+
+    .introducao-botoes{
+        gap: 20px;
+    }
+    .introducao .botao .icons{
+        width: 20px;
+    }
+    
+}
+
+@media (max-width: 550px){
+    .introducao{
+        grid-template-columns: 1fr;
+    }
+
+    .introducao h2{
+        margin-top: 4px;
+        font-size: 1.3rem;
+    }
+
+    .introducao .foto-introducao{
+        display: none;
+    }
+
+    .introducao .botao .icons{
+        width: 20px;
+    }
+}
+
+
