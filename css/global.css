@@ -1,0 +1,27 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img{
+  max-width: 100%;
+  display: block;
+}
+
+h1{
+  font-family: 'Poppins', sans-serif;
+}
+
+p,a{
+  font-family: 'Fira Sans', sans-serif;
+}
+
+a{
+  text-decoration: none;
+  color: #141414;
+}
+
+ul{
+  list-style: none;
+}
