@@ -1,0 +1,156 @@
+.habilidades{
+  width: 100%;
+  padding: 120px;
+  background-color: #141414;
+}
+
+.conteudo-habilidade{
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 50px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.habilidades h2{
+  word-break: break-all;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 7rem;
+  line-height: 1;
+}
+
+.card-habilidade{
+  padding: 40px;
+  background-color: black;
+  border-radius: 4px;
+  position: relative;
+}
+
+.card-habilidade::before{
+  content: "";
+  width: 7px;
+  height: 35px;  
+  background: linear-gradient(180deg, #5FE6B6 0%, #09CE93 100%);
+  position: absolute;
+  left: -7px;
+  top: 35px;
+}
+
+.card-habilidade h3{
+  font-family: 'Fira Sans', sans-serif;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 1.3rem;
+  margin-bottom: 30px;
+}
+
+.card-habilidade h4{
+  font-family: 'Fira Sans', sans-serif;
+  color: #8F8F8F;
+  text-transform: uppercase;
+}
+
+.card-habilidade p{
+  font-family: 'Fira Sans', sans-serif;
+  color: #fff;
+  line-height: 1.3;
+  font-size: 1.2rem;
+  align-items: center;
+  margin-left: 40px;
+  margin-bottom: 10px;
+  
+}
+
+.card-habilidade .carga-horaria{
+  font-family: 'Fira Sans', sans-serif;
+  color: #8F8F8F;
+  font-size: 1.2rem;
+  display: block;
+}
+
+.card-habilidade .cursos-titulo{
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.card-habilidade .curso{
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-habilidade .linguagens-titulo,.card-habilidade .ferramentas-titulo{
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 10px;
+}
+
+.card-habilidade .linguagens{
+  margin-bottom: 20px;
+}
+
+.card-habilidade .p-ferramentas{
+  margin-left: 40px;
+  margin-bottom: 5px;
+}
+
+.card-habilidade .ferramentas span{
+  color: #525252;
+}
+
+/* Responsivo */
+@media(max-width: 1257px){
+  .habilidades h2{
+    grid-row: 1;
+    font-size: 6rem;
+    align-self: center;
+    word-break: keep-all;
+  }
+
+  .conteudo-habilidade{
+    grid-template-columns: 1fr;
+  }
+
+  .card-habilidade{
+    max-width: 900px;
+    margin: 0 auto;
+  }
+}
+
+@media(max-width: 700px){
+
+  .habilidades h2{
+    font-size: 5rem;
+  }
+
+  .card-habilidade{
+    max-width: 500px;
+    margin: 0 auto;
+  }
+
+}
+@media(max-width: 575px){
+
+  .habilidades h2{
+    font-size: 4rem;
+  }
+
+  .card-habilidade{
+    max-width: 500px;
+  }
+
+  .card-habilidade p{
+    font-size: 1rem;
+    }
+
+  }
+
+@media(max-width: 460px){
+  .habilidades h2{
+    font-size: 3rem;
+  }
+
+}

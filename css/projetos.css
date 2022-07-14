@@ -45,6 +45,7 @@
   padding: 30px;
   background: #000;
   display: flex;
+  flex-wrap: wrap;
   gap: 20px;
   border-radius: 4px;
   flex-direction: column;
@@ -83,7 +84,6 @@
 
 .veja-mais {
   padding: 0px 0px 20px 0px;
-  
   display: block;
   text-align: center;
   font-family: 'Poppins', sans-serif;
