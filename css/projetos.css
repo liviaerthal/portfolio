@@ -81,10 +81,12 @@
   background-color: rgb(159, 159, 159);
 }
 
-.veja-mais {
-  padding: 0px 0px 20px 0px;
-  display: block;
+.veja-mais{
   text-align: center;
+}
+
+.veja-mais a{
+  padding: 20px;
   font-family: 'Poppins', sans-serif;
   text-decoration: underline;
   color:#09CE93;

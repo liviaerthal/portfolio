@@ -13,7 +13,6 @@
 }
 
 .habilidades h2{
-  word-break: break-all;
   text-align: center;
   text-transform: uppercase;
   font-size: 7rem;
@@ -59,7 +58,7 @@
   align-items: center;
   margin-left: 40px;
   margin-bottom: 10px;
-  
+
 }
 
 .card-habilidade .carga-horaria{
@@ -107,7 +106,6 @@
     grid-row: 1;
     font-size: 6rem;
     align-self: center;
-    word-break: keep-all;
   }
 
   .conteudo-habilidade{
@@ -122,6 +120,10 @@
 
 @media(max-width: 700px){
 
+  .habilidades{
+    padding: 80px;
+  }
+
   .habilidades h2{
     font-size: 5rem;
   }
@@ -134,23 +136,38 @@
 }
 @media(max-width: 575px){
 
-  .habilidades h2{
-    font-size: 4rem;
+  .habilidades{
+    padding: 30px;
   }
 
-  .card-habilidade{
-    max-width: 500px;
+  .habilidades h2{
+    display: none;
+  }
+
+  .card-habilidade .carga-horaria{
+    display: none;
   }
 
   .card-habilidade p{
+    display: block;
     font-size: 1rem;
+    margin-left: 0px;
+    }
+
+    .card-habilidade{
+      padding: 30px;
     }
 
   }
 
 @media(max-width: 460px){
-  .habilidades h2{
-    font-size: 3rem;
+
+  .habilidades{
+    padding: 30px;
+  }
+
+  .card-habilidade{
+    max-width: 400px;
   }
 
 }
