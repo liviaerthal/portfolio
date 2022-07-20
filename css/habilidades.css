@@ -13,6 +13,8 @@
 }
 
 .habilidades h2{
+  word-break: break-all;
+  max-width: 6ch;
   text-align: center;
   color:  #3D3D3D;
   text-transform: uppercase;
@@ -104,9 +106,11 @@
 /* Responsivo */
 @media(max-width: 1257px){
   .habilidades h2{
+    max-width: initial;
     grid-row: 1;
-    font-size: 6rem;
+    font-size: 5rem;
     align-self: center;
+    color: #f9f9f9;
   }
 
   .conteudo-habilidade{
@@ -142,7 +146,7 @@
   }
 
   .habilidades h2{
-    display: none;
+    font-size: 3rem;
   }
 
   .card-habilidade .carga-horaria{
@@ -171,4 +175,10 @@
     max-width: 400px;
   }
 
+}
+
+@media(max-width: 460px){
+  .habilidades h2{
+    font-size: 2.5rem;
+  }
 }

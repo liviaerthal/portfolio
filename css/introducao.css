@@ -123,10 +123,14 @@ span{
     }
 
     .introducao-botoes{
+        text-align: center;
         gap: 20px;
     }
+
+
     .introducao .botao .icons{
         width: 20px;
+        align-items: center;
     }
     
 }

@@ -54,6 +54,10 @@
         gap: 20px;
     }
 
+    .sobre-mim h2{
+        color: #141414;
+    }
+
     .sobre-mim p{
         margin: 10px 60px;
     }
@@ -69,6 +73,7 @@
 @media (max-width: 620px){
     .sobre-mim h2{
         font-size: 5rem;
+        color: #141414;
     }
 
     .sobre-mim p::before{

@@ -117,6 +117,7 @@
   }
 
   .projetos h2{
+    color: #e7e7e7;
     font-size: 7rem;
   }
 
@@ -133,6 +134,7 @@
 
 @media(max-width : 720px){
   .projetos h2{
+    color: #f9f9f9;
     font-size: 6rem;
   }
 }
@@ -173,7 +175,6 @@
 
 @media(max-width : 420px){
   .projetos h2{
-    margin-top: 20px;
     font-size: 3.3rem;
   }
 
