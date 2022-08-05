@@ -96,7 +96,13 @@
   font-family: 'Poppins', sans-serif;
   text-decoration: underline;
   color:#09CE93;
+  transition: .2s ease;
 }
+
+.veja-mais a:hover{
+  color: #fff;
+}
+
 
 @media (max-width: 1350px){
   .projetos h2{
