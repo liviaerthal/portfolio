@@ -20,6 +20,7 @@
   padding: 10px 20px;
   display: block;
   position: relative;
+  font-family: 'Poppins', sans-serif;
 }
 
 .menu a::after{
@@ -34,7 +35,7 @@
 }
 
 .menu a:hover::after{
-  width: 70%;
+  width: 75%;
 }
 
 
