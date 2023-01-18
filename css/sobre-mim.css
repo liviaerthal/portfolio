@@ -29,7 +29,6 @@
     height: 300px;
     background: linear-gradient(180deg, #5FE6B6 0%, #09CE93 100%);
     left: -30px;
-    top: -30px;
 }
 
 @media (max-width: 1000px){
